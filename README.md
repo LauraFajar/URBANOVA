@@ -1,4 +1,4 @@
-# 🏢 URBANOVA
+# URBANOVA
 
 Sitio web premium para inmobiliaria desarrollado con PHP, Tailwind CSS y diseño contemporáneo.
 
@@ -445,6 +445,3 @@ Para consultas sobre el código o customización:
 - [ ] Calculadora de hipoteca
 - [ ] Newsletter/Email marketing
 
----
-
-**¡Gracias por usar URBANOVA!** 🏢✨
