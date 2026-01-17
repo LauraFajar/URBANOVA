@@ -1,6 +1,6 @@
 ﻿<?php
 $page_title = "Propiedades Premium | URBANOVA Propiedades";
-$page_description = "Explora nuestro portafolio exclusivo de apartamentos, penthouses, casas y oficinas en las zonas mÃ¡s cotizadas. Tu inversiÃ³n inmobiliaria comienza aquÃ­.";
+$page_description = "Explora nuestro portafolio exclusivo de apartamentos, penthouses, casas y oficinas en las zonas más cotizadas. Tu inversión inmobiliaria comienza aquí.";
 $current_page = "propiedades";
 include 'includes/header.php';
 ?>
@@ -65,7 +65,7 @@ include 'includes/header.php';
             <div class="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-primary-100 hover:border-gold-400">
                 <div class="aspect-[4/3] overflow-hidden relative">
                     <img src="C:/Users/ASUS/.gemini/antigravity/brain/e95f1bcd-5367-4423-ba79-616846698fc9/servicio_venta_apartamentos_1768524778560.png" 
-                         alt="Apartamento Vista PanorÃ¡mica" 
+                         alt="Apartamento Vista Panorámica" 
                          class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute top-4 left-4">
                         <span class="bg-gold-400 text-white px-3 py-1 rounded-full text-xs font-bold uppercase">Popular</span>
@@ -89,14 +89,14 @@ include 'includes/header.php';
                     </p>
                     <div class="flex items-center space-x-4 text-sm text-primary-600 border-t border-primary-100 pt-4">
                         <span><i class="fas fa-bed text-gold-400 mr-1"></i> 3 dorm</span>
-                        <span><i class="fas fa-bath text-gold-400 mr-1"></i> 2 baÃ±os</span>
-                        <span><i class="fas fa-ruler-combined text-gold-400 mr-1"></i> 120mÂ²</span>
+                        <span><i class="fas fa-bath text-gold-400 mr-1"></i> 2 baños</span>
+                        <span><i class="fas fa-ruler-combined text-gold-400 mr-1"></i> 120m²</span>
                     </div>
                     <p class="text-primary-700 text-sm leading-relaxed">
-                        Apartamento de lujo con vistas panorÃ¡micas a la ciudad. Acabados premium, cocina equipada y balcÃ³n privado.
+                        Apartamento de lujo con vistas panorámicas a la ciudad. Acabados premium, cocina equipada y balcón privado.
                     </p>
                     <a href="contacto.php" class="block w-full bg-primary-900 hover:bg-gold-500 text-white font-montserrat font-bold text-sm uppercase py-3 rounded-lg text-center transition-all duration-300">
-                        <i class="fas fa-info-circle mr-2"></i>MÃ¡s InformaciÃ³n
+                        <i class="fas fa-info-circle mr-2"></i>Más Información
                     </a>
                 </div>
             </div>
@@ -122,18 +122,18 @@ include 'includes/header.php';
                     </div>
                     <p class="text-primary-600 text-sm flex items-center">
                         <i class="fas fa-map-marker-alt text-gold-400 mr-2"></i>
-                        Centro HistÃ³rico, Piso 15
+                        Centro Histórico, Piso 15
                     </p>
                     <div class="flex items-center space-x-4 text-sm text-primary-600 border-t border-primary-100 pt-4">
                         <span><i class="fas fa-bed text-gold-400 mr-1"></i> 2 dorm</span>
-                        <span><i class="fas fa-bath text-gold-400 mr-1"></i> 2 baÃ±os</span>
-                        <span><i class="fas fa-ruler-combined text-gold-400 mr-1"></i> 95mÂ²</span>
+                        <span><i class="fas fa-bath text-gold-400 mr-1"></i> 2 baños</span>
+                        <span><i class="fas fa-ruler-combined text-gold-400 mr-1"></i> 95m²</span>
                     </div>
                     <p class="text-primary-700 text-sm leading-relaxed">
-                        DiseÃ±o contemporÃ¡neo con espacios abiertos. Incluye gimnasio, piscina y estacionamiento privado.
+                        Diseño contemporáneo con espacios abiertos. Incluye gimnasio, piscina y estacionamiento privado.
                     </p>
                     <a href="contacto.php" class="block w-full bg-primary-900 hover:bg-gold-500 text-white font-montserrat font-bold text-sm uppercase py-3 rounded-lg text-center transition-all duration-300">
-                        <i class="fas fa-info-circle mr-2"></i>MÃ¡s InformaciÃ³n
+                        <i class="fas fa-info-circle mr-2"></i>Más Información
                     </a>
                 </div>
             </div>
@@ -160,14 +160,14 @@ include 'includes/header.php';
                     </p>
                     <div class="flex items-center space-x-4 text-sm text-primary-600 border-t border-primary-100 pt-4">
                         <span><i class="fas fa-bed text-gold-400 mr-1"></i> 2 dorm</span>
-                        <span><i class="fas fa-bath text-gold-400 mr-1"></i> 1 baÃ±o</span>
-                        <span><i class="fas fa-ruler-combined text-gold-400 mr-1"></i> 80mÂ²</span>
+                        <span><i class="fas fa-bath text-gold-400 mr-1"></i> 1 baño</span>
+                        <span><i class="fas fa-ruler-combined text-gold-400 mr-1"></i> 80m²</span>
                     </div>
                     <p class="text-primary-700 text-sm leading-relaxed">
                         Apartamento amueblado con todos los servicios incluidos. Ideal para ejecutivos y profesionales.
                     </p>
                     <a href="contacto.php" class="block w-full bg-primary-900 hover:bg-gold-500 text-white font-montserrat font-bold text-sm uppercase py-3 rounded-lg text-center transition-all duration-300">
-                        <i class="fas fa-info-circle mr-2"></i>MÃ¡s InformaciÃ³n
+                        <i class="fas fa-info-circle mr-2"></i>Más Información
                     </a>
                 </div>
             </div>
@@ -186,7 +186,7 @@ include 'includes/header.php';
                 Penthouses <span class="text-gold-400">Exclusivos</span>
             </h2>
             <p class="text-primary-200 text-lg max-w-2xl mx-auto">
-                La cÃºspide del lujo urbano con vistas incomparables y amenities de clase mundial
+                La cúspide del lujo urbano con vistas incomparables y amenities de clase mundial
             </p>
         </div>
         
@@ -217,7 +217,7 @@ include 'includes/header.php';
                             <p class="text-white font-bold text-lg"><i class="fas fa-bed text-gold-400 mr-2"></i>4</p>
                         </div>
                         <div>
-                            <p class="text-primary-400 text-xs uppercase tracking-wide mb-1">BaÃ±os</p>
+                            <p class="text-primary-400 text-xs uppercase tracking-wide mb-1">Baños</p>
                             <p class="text-white font-bold text-lg"><i class="fas fa-bath text-gold-400 mr-2"></i>3.5</p>
                         </div>
                         <div>
@@ -231,7 +231,7 @@ include 'includes/header.php';
                     </div>
                     
                     <p class="text-primary-200 leading-relaxed">
-                        Penthouse de dos niveles con terraza privada de 150mÂ², jacuzzi exterior, cocina gourmet, Ð´Ð¾Ð¼Ð°ÑˆÐ½Ð¸Ð¹ ÐºÐ¸Ð½Ð¾Ñ‚ÐµÐ°Ñ‚Ñ€ y vistas de 360Â° de la ciudad. Incluye 3 estacionamientos y bodega privada.
+                        Penthouse de dos niveles con terraza privada de 150m², jacuzzi exterior, cocina gourmet, home cinema y vistas de 360° de la ciudad. Incluye 3 estacionamientos y bodega privada.
                     </p>
                     
                     <div class="space-y-3">
@@ -272,8 +272,8 @@ include 'includes/header.php';
                     </p>
                     <div class="flex items-center space-x-4 text-sm text-primary-300 border-t border-primary-700 pt-4">
                         <span><i class="fas fa-bed text-gold-400 mr-1"></i> 3 dorm</span>
-                        <span><i class="fas fa-bath text-gold-400 mr-1"></i> 2.5 baÃ±os</span>
-                        <span><i class="fas fa-ruler-combined text-gold-400 mr-1"></i> 220mÂ²</span>
+                        <span><i class="fas fa-bath text-gold-400 mr-1"></i> 2.5 baños</span>
+                        <span><i class="fas fa-ruler-combined text-gold-400 mr-1"></i> 220m²</span>
                     </div>
                     <a href="contacto.php" class="block w-full bg-gold-400 hover:bg-gold-500 text-white font-montserrat font-bold text-sm uppercase py-3 rounded-lg text-center transition-all duration-300">
                         Ver Detalles
@@ -300,8 +300,8 @@ include 'includes/header.php';
                     </p>
                     <div class="flex items-center space-x-4 text-sm text-primary-300 border-t border-primary-700 pt-4">
                         <span><i class="fas fa-bed text-gold-400 mr-1"></i> 5 dorm</span>
-                        <span><i class="fas fa-bath text-gold-400 mr-1"></i> 4 baÃ±os</span>
-                        <span><i class="fas fa-ruler-combined text-gold-400 mr-1"></i> 350mÂ²</span>
+                        <span><i class="fas fa-bath text-gold-400 mr-1"></i> 4 baños</span>
+                        <span><i class="fas fa-ruler-combined text-gold-400 mr-1"></i> 350m²</span>
                     </div>
                     <a href="contacto.php" class="block w-full bg-gold-400 hover:bg-gold-500 text-white font-montserrat font-bold text-sm uppercase py-3 rounded-lg text-center transition-all duration-300">
                         Ver Detalles
@@ -321,10 +321,10 @@ include 'includes/header.php';
             <div class="flex items-center space-x-4 mb-4">
                 <div class="h-1 w-16 bg-gold-400"></div>
                 <h2 class="font-montserrat font-black text-4xl text-primary-900">
-                    Casas de DiseÃ±o
+                    Casas de Diseño
                 </h2>
             </div>
-            <p class="text-primary-600 text-lg">Residencias exclusivas con jardines privados y arquitectura contemporÃ¡nea</p>
+            <p class="text-primary-600 text-lg">Residencias exclusivas con jardines privados y arquitectura contemporánea</p>
         </div>
         
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -348,14 +348,14 @@ include 'includes/header.php';
                     </p>
                     <div class="flex items-center space-x-4 text-sm text-primary-600 border-t border-primary-100 pt-4">
                         <span><i class="fas fa-bed text-gold-400 mr-1"></i> 4 dorm</span>
-                        <span><i class="fas fa-bath text-gold-400 mr-1"></i> 3 baÃ±os</span>
-                        <span><i class="fas fa-ruler-combined text-gold-400 mr-1"></i> 280mÂ²</span>
+                        <span><i class="fas fa-bath text-gold-400 mr-1"></i> 3 baños</span>
+                        <span><i class="fas fa-ruler-combined text-gold-400 mr-1"></i> 280m²</span>
                     </div>
                     <p class="text-primary-700 text-sm leading-relaxed">
-                        Casa moderna con jardÃ­n de 200mÂ², piscina, quincho y garage para 2 autos. DiseÃ±o minimalista.
+                        Casa moderna con jardín de 200m², piscina, quincho y garage para 2 autos. Diseño minimalista.
                     </p>
                     <a href="contacto.php" class="block w-full bg-primary-900 hover:bg-gold-500 text-white font-montserrat font-bold text-sm uppercase py-3 rounded-lg text-center transition-all duration-300">
-                        MÃ¡s InformaciÃ³n
+                        Más Información
                     </a>
                 </div>
             </div>
@@ -379,14 +379,14 @@ include 'includes/header.php';
                     </p>
                     <div class="flex items-center space-x-4 text-sm text-primary-600 border-t border-primary-100 pt-4">
                         <span><i class="fas fa-bed text-gold-400 mr-1"></i> 3 dorm</span>
-                        <span><i class="fas fa-bath text-gold-400 mr-1"></i> 2.5 baÃ±os</span>
-                        <span><i class="fas fa-ruler-combined text-gold-400 mr-1"></i> 240mÂ²</span>
+                        <span><i class="fas fa-bath text-gold-400 mr-1"></i> 2.5 baños</span>
+                        <span><i class="fas fa-ruler-combined text-gold-400 mr-1"></i> 240m²</span>
                     </div>
                     <p class="text-primary-700 text-sm leading-relaxed">
-                        Casa sustentable con paneles solares, jardÃ­n vertical y diseÃ±o bioclimÃ¡tico. Amplio deck.
+                        Casa sustentable con paneles solares, jardín vertical y diseño bioclimático. Amplio deck.
                     </p>
                     <a href="contacto.php" class="block w-full bg-primary-900 hover:bg-gold-500 text-white font-montserrat font-bold text-sm uppercase py-3 rounded-lg text-center transition-all duration-300">
-                        MÃ¡s InformaciÃ³n
+                        Más Información
                     </a>
                 </div>
             </div>
@@ -410,14 +410,14 @@ include 'includes/header.php';
                     </p>
                     <div class="flex items-center space-x-4 text-sm text-primary-600 border-t border-primary-100 pt-4">
                         <span><i class="fas fa-bed text-gold-400 mr-1"></i> 5 dorm</span>
-                        <span><i class="fas fa-bath text-gold-400 mr-1"></i> 4 baÃ±os</span>
-                        <span><i class="fas fa-ruler-combined text-gold-400 mr-1"></i> 380mÂ²</span>
+                        <span><i class="fas fa-bath text-gold-400 mr-1"></i> 4 baños</span>
+                        <span><i class="fas fa-ruler-combined text-gold-400 mr-1"></i> 380m²</span>
                     </div>
                     <p class="text-primary-700 text-sm leading-relaxed">
-                        MansiÃ³n con piscina climatizada, home theater, gimnasio y estudio. Seguridad 24/7.
+                        Mansión con piscina climatizada, home theater, gimnasio y estudio. Seguridad 24/7.
                     </p>
                     <a href="contacto.php" class="block w-full bg-primary-900 hover:bg-gold-500 text-white font-montserrat font-bold text-sm uppercase py-3 rounded-lg text-center transition-all duration-300">
-                        MÃ¡s InformaciÃ³n
+                        Más Información
                     </a>
                 </div>
             </div>
@@ -434,13 +434,13 @@ include 'includes/header.php';
                 <div class="h-1 w-16 bg-gold-400"></div>
                 <h2 class="font-montserrat font-black text-4xl text-primary-900">Oficinas Corporativas</h2>
             </div>
-            <p class="text-primary-600 text-lg">Espacios profesionales en ubicaciones estratÃ©gicas</p>
+            <p class="text-primary-600 text-lg">Espacios profesionales en ubicaciones estratégicas</p>
         </div>
         <div class="bg-white rounded-xl p-8 shadow-lg text-center">
             <i class="fas fa-briefcase text-gold-400 text-6xl mb-4"></i>
-            <p class="text-primary-700 text-lg mb-6">Consulta nuestro catÃ¡logo completo de oficinas desde 50mÂ² hasta 500mÂ² en las mejores zonas comerciales</p>
+            <p class="text-primary-700 text-lg mb-6">Consulta nuestro catálogo completo de oficinas desde 50m² hasta 500m² en las mejores zonas comerciales</p>
             <a href="contacto.php" class="inline-block btn-gradient text-white font-montserrat font-bold text-sm uppercase px-8 py-3 rounded-lg">
-                Solicitar CatÃ¡logo
+                Solicitar Catálogo
             </a>
         </div>
     </div>
@@ -453,11 +453,11 @@ include 'includes/header.php';
                 <div class="h-1 w-16 bg-gold-400"></div>
                 <h2 class="font-montserrat font-black text-4xl text-primary-900">Terrenos Exclusivos</h2>
             </div>
-            <p class="text-primary-600 text-lg">Lotes premium para inversiÃ³n o desarrollo</p>
+            <p class="text-primary-600 text-lg">Lotes premium para inversión o desarrollo</p>
         </div>
         <div class="bg-primary-900 rounded-xl p-8 shadow-lg text-center">
             <i class="fas fa-map-marked-alt text-gold-400 text-6xl mb-4"></i>
-            <p class="text-white text-lg mb-6">Terrenos desde 500mÂ² hasta 5,000mÂ² en zonas de alto crecimiento</p>
+            <p class="text-white text-lg mb-6">Terrenos desde 500m² hasta 5,000m² en zonas de alto crecimiento</p>
             <a href="contacto.php" class="inline-block btn-gradient text-white font-montserrat font-bold text-sm uppercase px-8 py-3 rounded-lg">
                 Ver Disponibilidad
             </a>
@@ -472,11 +472,11 @@ include 'includes/header.php';
                 <div class="h-1 w-16 bg-gold-400"></div>
                 <h2 class="font-montserrat font-black text-4xl text-primary-900">Locales Comerciales</h2>
             </div>
-            <p class="text-primary-600 text-lg">Inversiones comerciales en alto trÃ¡fico</p>
+            <p class="text-primary-600 text-lg">Inversiones comerciales en alto tráfico</p>
         </div>
         <div class="bg-white rounded-xl p-8 shadow-lg text-center">
             <i class="fas fa-store text-gold-400 text-6xl mb-4"></i>
-            <p class="text-primary-700 text-lg mb-6">Locales comerciales estratÃ©gicamente ubicados en centros comerciales y avenidas principales</p>
+            <p class="text-primary-700 text-lg mb-6">Locales comerciales estratégicamente ubicados en centros comerciales y avenidas principales</p>
             <a href="contacto.php" class="inline-block btn-gradient text-white font-montserrat font-bold text-sm uppercase px-8 py-3 rounded-lg">
                 Explorar Opciones
             </a>
@@ -487,13 +487,13 @@ include 'includes/header.php';
 <section class="py-20 bg-primary-900">
     <div class="container mx-auto px-4 lg:px-8 text-center">
         <h2 class="font-montserrat font-black text-4xl lg:text-5xl text-white mb-6">
-            Â¿No Encontraste lo que Buscabas?
+            ¿No Encontraste lo que Buscabas?
         </h2>
         <p class="text-primary-200 text-lg max-w-2xl mx-auto mb-8">
-            Tenemos acceso a un portafolio exclusivo de propiedades fuera del mercado. CuÃ©ntanos quÃ© necesitas.
+            Tenemos acceso a un portafolio exclusivo de propiedades fuera del mercado. Cuéntanos qué necesitas.
         </p>
         <a href="contacto.php" class="inline-block btn-gradient text-white font-montserrat font-bold text-base uppercase px-10 py-5 rounded-lg">
-            <i class="fas fa-search mr-3"></i>BÃºsqueda Personalizada
+            <i class="fas fa-search mr-3"></i>Búsqueda Personalizada
         </a>
     </div>
 </section>

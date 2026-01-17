@@ -1,6 +1,6 @@
 ﻿<?php
 $page_title = "Contacto y Consultas | URBANOVA Propiedades";
-$page_description = "Agenda tu consulta gratuita con nuestros expertos inmobiliarios. Estamos aquÃ­ para ayudarte a encontrar tu inversiÃ³n perfecta.";
+$page_description = "Agenda tu consulta gratuita con nuestros expertos inmobiliarios. Estamos aquí para ayudarte a encontrar tu inversión perfecta.";
 $current_page = "contacto";
 include 'includes/header.php';
 ?>
@@ -12,7 +12,7 @@ include 'includes/header.php';
     
     <div class="container mx-auto px-4 lg:px-8 z-10 text-center">
         <h1 class="font-montserrat font-black text-5xl lg:text-6xl text-white leading-tight mb-6">
-            Hablemos de tu <span class="text-gold-400">InversiÃ³n</span>
+            Hablemos de tu <span class="text-gold-400">Inversión</span>
         </h1>
         <p class="text-primary-100 text-lg lg:text-xl font-inter max-w-2xl mx-auto">
             Agenda una consulta gratuita y descubre las mejores oportunidades del mercado
@@ -32,7 +32,7 @@ include 'includes/header.php';
                 <div class="bg-primary-900 rounded-xl p-8 border-l-4 border-gold-400 shadow-xl">
                     
                     <h2 class="font-montserrat font-bold text-2xl text-white mb-6">
-                        InformaciÃ³n de Contacto
+                        Información de Contacto
                     </h2>
                     
                     <div class="space-y-6">
@@ -42,11 +42,11 @@ include 'includes/header.php';
                             </div>
                             <div>
                                 <h3 class="font-montserrat font-bold text-white text-sm uppercase tracking-wide mb-2">
-                                    Horarios de AtenciÃ³n
+                                    Horarios de Atención
                                 </h3>
                                 <div class="space-y-1 text-sm text-primary-200">
                                     <p><span class="text-gold-400 font-medium">Lunes a Viernes:</span> 9:00 AM - 7:00 PM</p>
-                                    <p><span class="text-gold-400 font-medium">SÃ¡bados:</span> 10:00 AM - 4:00 PM</p>
+                                    <p><span class="text-gold-400 font-medium">Sábados:</span> 10:00 AM - 4:00 PM</p>
                                     <p><span class="text-gold-400 font-medium">Domingos:</span> Cerrado</p>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ include 'includes/header.php';
                                 <p class="text-primary-200 text-sm leading-relaxed">
                                     Av. Empresarial 2500, Piso 12<br>
                                     Torre Ejecutiva, Zona Financiera<br>
-                                    Ciudad, PaÃ­s
+                                    Ciudad, País
                                 </p>
                             </div>
                         </div>
@@ -74,12 +74,12 @@ include 'includes/header.php';
                             </div>
                             <div>
                                 <h3 class="font-montserrat font-bold text-white text-sm uppercase tracking-wide mb-2">
-                                    TelÃ©fono
+                                    Teléfono
                                 </h3>
                                 <a href="tel:+5491123456789" class="text-gold-400 hover:text-gold-300 text-lg font-semibold transition-colors duration-300">
                                     +54 9 11 2345-6789
                                 </a>
-                                <p class="text-primary-300 text-xs mt-1">Lunes a SÃ¡bado</p>
+                                <p class="text-primary-300 text-xs mt-1">Lunes a Sábado</p>
                             </div>
                         </div>
                         
@@ -122,14 +122,14 @@ include 'includes/header.php';
                             <i class="fas fa-info-circle mr-2 mt-0.5"></i>
                             <span>
                                 <strong>Visitas Privadas:</strong> Disponibles 24/7 con cita previa. 
-                                TambiÃ©n atendemos grupos y consultas corporativas.
+                                También atendemos grupos y consultas corporativas.
                             </span>
                         </p>
                     </div>
                     
                     <div class="mt-8">
                         <h3 class="font-montserrat font-bold text-white text-sm uppercase tracking-wide mb-4">
-                            SÃ­guenos en Redes
+                            Síguenos en Redes
                         </h3>
                         <div class="flex space-x-3">
                             <a href="#" class="w-12 h-12 bg-primary-800 hover:bg-gradient-to-br hover:from-purple-600 hover:to-pink-600 rounded-lg flex items-center justify-center transition-all duration-300 group">
@@ -160,7 +160,7 @@ include 'includes/header.php';
                             Agenda tu Consulta Gratuita
                         </h2>
                         <p class="text-white/90 text-sm">
-                            Completa el formulario y un experto te contactarÃ¡ en menos de 24 horas
+                            Completa el formulario y un experto te contactará en menos de 24 horas
                         </p>
                     </div>
                     
@@ -206,7 +206,7 @@ include 'includes/header.php';
                                 </div>
                                 <div>
                                     <label for="telefono" class="block text-primary-200 text-sm font-medium mb-2">
-                                        TelÃ©fono
+                                        Teléfono
                                     </label>
                                     <div class="relative">
                                         <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
@@ -251,8 +251,8 @@ include 'includes/header.php';
                                             name="horario"
                                             class="w-full bg-primary-800 border border-primary-700 focus:border-gold-400 focus:ring-2 focus:ring-gold-400/50 text-white rounded-lg pl-12 pr-4 py-3 transition-all duration-300 appearance-none cursor-pointer">
                                             <option value="">Seleccionar horario</option>
-                                            <option value="manana">MaÃ±ana (9:00 AM - 12:00 PM)</option>
-                                            <option value="mediodia">MediodÃ­a (12:00 PM - 3:00 PM)</option>
+                                            <option value="manana">Mañana (9:00 AM - 12:00 PM)</option>
+                                            <option value="mediodia">Mediodía (12:00 PM - 3:00 PM)</option>
                                             <option value="tarde">Tarde (3:00 PM - 7:00 PM)</option>
                                             <option value="flexible">Flexible</option>
                                         </select>
@@ -265,7 +265,7 @@ include 'includes/header.php';
                             
                             <div>
                                 <label for="tipo_propiedad" class="block text-primary-200 text-sm font-medium mb-2">
-                                    Tipo de Propiedad de InterÃ©s
+                                    Tipo de Propiedad de Interés
                                 </label>
                                 <div class="relative">
                                     <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
@@ -332,9 +332,9 @@ include 'includes/header.php';
                                         <option value="compra">Quiero comprar</option>
                                         <option value="venta">Quiero vender</option>
                                         <option value="alquiler">Busco alquilar</option>
-                                        <option value="inversion">InversiÃ³n inmobiliaria</option>
-                                        <option value="tasacion">Solicitar tasaciÃ³n</option>
-                                        <option value="asesoria">AsesorÃ­a general</option>
+                                        <option value="inversion">Inversión inmobiliaria</option>
+                                        <option value="tasacion">Solicitar tasación</option>
+                                        <option value="asesoria">Asesoría general</option>
                                         <option value="otro">Otro</option>
                                     </select>
                                     <div class="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none">
@@ -353,7 +353,7 @@ include 'includes/header.php';
                                         name="comentarios" 
                                         rows="4"
                                         class="w-full bg-primary-800 border border-primary-700 focus:border-gold-400 focus:ring-2 focus:ring-gold-400/50 text-white placeholder-primary-400 rounded-lg px-4 py-3 transition-all duration-300 resize-none"
-                                        placeholder="CuÃ©ntanos mÃ¡s sobre lo que buscas..."></textarea>
+                                        placeholder="Cuéntanos más sobre lo que buscas..."></textarea>
                                     <div class="absolute top-3 right-3 pointer-events-none">
                                         <i class="fas fa-comment-dots text-gold-400"></i>
                                     </div>
@@ -368,8 +368,8 @@ include 'includes/header.php';
                                     required
                                     class="w-5 h-5 bg-primary-800 border-2 border-primary-700 rounded focus:ring-2 focus:ring-gold-400 text-gold-400 cursor-pointer mt-0.5">
                                 <label for="privacy" class="text-primary-300 text-sm leading-relaxed cursor-pointer">
-                                    Acepto la <a href="#" class="text-gold-400 hover:text-gold-300 underline">polÃ­tica de privacidad</a> y 
-                                    autorizo el tratamiento de mis datos para recibir informaciÃ³n sobre propiedades.
+                                    Acepto la <a href="#" class="text-gold-400 hover:text-gold-300 underline">política de privacidad</a> y 
+                                    autorizo el tratamiento de mis datos para recibir información sobre propiedades.
                                 </label>
                             </div>
                             
@@ -382,7 +382,7 @@ include 'includes/header.php';
                             
                             <p class="text-center text-primary-400 text-xs italic">
                                 <i class="fas fa-shield-alt mr-1"></i>
-                                Tus datos estÃ¡n protegidos. Respetamos tu privacidad.
+                                Tus datos están protegidos. Respetamos tu privacidad.
                             </p>
                             
                         </form>
@@ -403,10 +403,10 @@ include 'includes/header.php';
         
         <div class="text-center mb-12">
             <h2 class="font-montserrat font-black text-4xl lg:text-5xl text-white mb-4">
-                Â¿CÃ³mo <span class="text-gold-400">Llegar?</span>
+                ¿Cómo <span class="text-gold-400">Llegar?</span>
             </h2>
             <p class="text-primary-200 text-lg">
-                EncuÃ©ntranos en la Zona Financiera, Torre Ejecutiva Piso 12
+                Encuéntranos en la Zona Financiera, Torre Ejecutiva Piso 12
             </p>
         </div>
         
@@ -431,7 +431,7 @@ include 'includes/header.php';
             <div class="bg-primary-800 rounded-lg p-6 border border-gold-400/30">
                 <i class="fas fa-subway text-gold-400 text-3xl mb-3"></i>
                 <h3 class="font-montserrat font-bold text-white text-lg mb-2">Metro/Subte</h3>
-                <p class="text-primary-300 text-sm">LÃ­nea C - EstaciÃ³n Diagonal Norte (5 min caminando)</p>
+                <p class="text-primary-300 text-sm">Línea C - Estación Diagonal Norte (5 min caminando)</p>
             </div>
             <div class="bg-primary-800 rounded-lg p-6 border border-gold-400/30">
                 <i class="fas fa-bus text-gold-400 text-3xl mb-3"></i>
