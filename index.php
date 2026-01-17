@@ -7,7 +7,7 @@ include 'includes/header.php';
 
 <section class="relative h-screen flex items-center justify-center overflow-hidden">
     <div class="absolute inset-0 z-0">
-        <img src="C:/Users/ASUS/.gemini/antigravity/brain/e95f1bcd-5367-4423-ba79-616846698fc9/hero_urbanova_building_1768524746810.png" 
+        <img src="assets/img/hero.png" 
              alt="URBANOVA Building" 
              class="w-full h-full object-cover">
         <div class="absolute inset-0 bg-gradient-to-r from-primary-900/95 via-primary-900/80 to-primary-900/70"></div>
@@ -92,7 +92,7 @@ include 'includes/header.php';
             
             <div class="order-1 lg:order-2 relative">
                 <div class="aspect-square rounded-2xl overflow-hidden shadow-2xl">
-                    <img src="C:/Users/ASUS/.gemini/antigravity/brain/e95f1bcd-5367-4423-ba79-616846698fc9/office_ambiente_interior_1768524764388.png" 
+                    <img src="assets/img/office.png" 
                          alt="Oficina URBANOVA" 
                          class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                 </div>
@@ -122,7 +122,7 @@ include 'includes/header.php';
             
             <div class="group bg-primary-800 border-l-4 border-gold-400 rounded-lg overflow-hidden hover:border-gold-500 transition-all duration-300 hover:transform hover:scale-105">
                 <div class="aspect-square overflow-hidden">
-                    <img src="C:/Users/ASUS/.gemini/antigravity/brain/e95f1bcd-5367-4423-ba79-616846698fc9/servicio_venta_apartamentos_1768524778560.png" 
+                    <img src="assets/img/venta_apartamentos.png" 
                          alt="Venta de Apartamentos" 
                          class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                 </div>
@@ -141,7 +141,7 @@ include 'includes/header.php';
             
             <div class="group bg-primary-800 border-l-4 border-gold-400 rounded-lg overflow-hidden hover:border-gold-500 transition-all duration-300 hover:transform hover:scale-105">
                 <div class="aspect-square overflow-hidden">
-                    <img src="C:/Users/ASUS/.gemini/antigravity/brain/e95f1bcd-5367-4423-ba79-616846698fc9/servicio_alquiler_penthouse_1768524794315.png" 
+                    <img src="assets/img/alquiler_penthouse.png" 
                          alt="Alquiler de Penthouses" 
                          class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                 </div>
@@ -160,7 +160,7 @@ include 'includes/header.php';
             
             <div class="group bg-primary-800 border-l-4 border-gold-400 rounded-lg overflow-hidden hover:border-gold-500 transition-all duration-300 hover:transform hover:scale-105">
                 <div class="aspect-square overflow-hidden">
-                    <img src="C:/Users/ASUS/.gemini/antigravity/brain/e95f1bcd-5367-4423-ba79-616846698fc9/servicio_tasaciones_1768524808754.png" 
+                    <img src="assets/img/tasaciones.png" 
                          alt="Tasaciones Profesionales" 
                          class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                 </div>
@@ -179,8 +179,8 @@ include 'includes/header.php';
             
             <div class="group bg-primary-800 border-l-4 border-gold-400 rounded-lg overflow-hidden hover:border-gold-500 transition-all duration-300 hover:transform hover:scale-105">
                 <div class="aspect-square overflow-hidden">
-                    <img src="C:/Users/ASUS/.gemini/antigravity/brain/e95f1bcd-5367-4423-ba79-616846698fc9/servicio_asesoria_legal_1768524829594.png" 
-                         alt="AsesorÃ­a Legal" 
+                    <img src="assets/img/asesoria_legal.png" 
+                         alt="Asesoría Legal" 
                          class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                 </div>
                 <div class="p-6 space-y-3">
@@ -198,8 +198,8 @@ include 'includes/header.php';
             
             <div class="group bg-primary-800 border-l-4 border-gold-400 rounded-lg overflow-hidden hover:border-gold-500 transition-all duration-300 hover:transform hover:scale-105">
                 <div class="aspect-square overflow-hidden">
-                    <img src="C:/Users/ASUS/.gemini/antigravity/brain/e95f1bcd-5367-4423-ba79-616846698fc9/servicio_inversion_inmobiliaria_1768524844068.png" 
-                         alt="InversiÃ³n Inmobiliaria" 
+                    <img src="assets/img/inversion.png" 
+                         alt="Inversión Inmobiliaria" 
                          class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                 </div>
                 <div class="p-6 space-y-3">
@@ -216,8 +216,10 @@ include 'includes/header.php';
             </div>
             
             <div class="group bg-primary-800 border-l-4 border-gold-400 rounded-lg overflow-hidden hover:border-gold-500 transition-all duration-300 hover:transform hover:scale-105">
-                <div class="aspect-square overflow-hidden bg-primary-700 flex items-center justify-center">
-                    <i class="fas fa-keys text-gold-400/30 text-9xl"></i>
+                <div class="aspect-square overflow-hidden">
+                    <img src="assets/img/hero.png" 
+                         alt="Administración de Propiedades" 
+                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                 </div>
                 <div class="p-6 space-y-3">
                     <span class="inline-block px-3 py-1 bg-gold-400/20 text-gold-400 text-xs font-bold uppercase tracking-wide rounded-full">

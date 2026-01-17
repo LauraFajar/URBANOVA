@@ -64,7 +64,7 @@ include 'includes/header.php';
             
             <div class="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-primary-100 hover:border-gold-400">
                 <div class="aspect-[4/3] overflow-hidden relative">
-                    <img src="C:/Users/ASUS/.gemini/antigravity/brain/e95f1bcd-5367-4423-ba79-616846698fc9/servicio_venta_apartamentos_1768524778560.png" 
+                    <img src="assets/img/venta_apartamentos.png" 
                          alt="Apartamento Vista Panorámica" 
                          class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute top-4 left-4">
@@ -102,8 +102,10 @@ include 'includes/header.php';
             </div>
             
             <div class="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-primary-100 hover:border-gold-400">
-                <div class="aspect-[4/3] overflow-hidden relative bg-gradient-to-br from-primary-700 to-primary-900 flex items-center justify-center">
-                    <i class="fas fa-building text-gold-400/20 text-8xl"></i>
+                <div class="aspect-[4/3] overflow-hidden relative">
+                    <img src="assets/img/office.png" 
+                         alt="Urban Loft Tower" 
+                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute top-4 left-4">
                         <span class="bg-green-500 text-white px-3 py-1 rounded-full text-xs font-bold uppercase">Nuevo</span>
                     </div>
@@ -139,8 +141,10 @@ include 'includes/header.php';
             </div>
             
             <div class="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-primary-100 hover:border-gold-400">
-                <div class="aspect-[4/3] overflow-hidden relative bg-gradient-to-br from-gold-800 to-gold-900 flex items-center justify-center">
-                    <i class="fas fa-city text-white/20 text-8xl"></i>
+                <div class="aspect-[4/3] overflow-hidden relative">
+                    <img src="assets/img/alquiler_penthouse.png" 
+                         alt="Metropolitan Suite" 
+                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     <div class="absolute top-4 right-4">
                         <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-xs font-bold uppercase">Alquiler</span>
                     </div>
@@ -193,7 +197,7 @@ include 'includes/header.php';
         <div class="max-w-6xl mx-auto mb-12 bg-primary-800 rounded-2xl overflow-hidden shadow-2xl border-2 border-gold-400">
             <div class="grid lg:grid-cols-2">
                 <div class="aspect-square lg:aspect-auto">
-                    <img src="C:/Users/ASUS/.gemini/antigravity/brain/e95f1bcd-5367-4423-ba79-616846698fc9/servicio_alquiler_penthouse_1768524794315.png" 
+                    <img src="assets/img/alquiler_penthouse.png" 
                          alt="Penthouse Sky Terrace" 
                          class="w-full h-full object-cover">
                 </div>
@@ -254,8 +258,10 @@ include 'includes/header.php';
         <div class="grid md:grid-cols-2 gap-8">
             
             <div class="bg-primary-800 rounded-xl overflow-hidden shadow-xl border border-gold-400/30 hover:border-gold-400 transition-all duration-300">
-                <div class="aspect-[16/9] bg-gradient-to-br from-primary-700 to-gold-900 flex items-center justify-center">
-                    <i class="fas fa-crown text-gold-400/20 text-8xl"></i>
+                <div class="aspect-[16/9] overflow-hidden relative">
+                    <img src="assets/img/inversion.png" 
+                         alt="Royal Heights Penthouse" 
+                         class="w-full h-full object-cover hover:scale-110 transition-transform duration-500">
                 </div>
                 <div class="p-6 space-y-4">
                     <div class="flex items-start justify-between">
@@ -282,8 +288,10 @@ include 'includes/header.php';
             </div>
             
             <div class="bg-primary-800 rounded-xl overflow-hidden shadow-xl border border-gold-400/30 hover:border-gold-400 transition-all duration-300">
-                <div class="aspect-[16/9] bg-gradient-to-br from-gold-800 to-primary-900 flex items-center justify-center">
-                    <i class="fas fa-gem text-white/20 text-8xl"></i>
+                <div class="aspect-[16/9] overflow-hidden relative">
+                    <img src="assets/img/tasaciones.png" 
+                         alt="Diamond Residence" 
+                         class="w-full h-full object-cover hover:scale-110 transition-transform duration-500">
                 </div>
                 <div class="p-6 space-y-4">
                     <div class="flex items-start justify-between">
@@ -330,8 +338,10 @@ include 'includes/header.php';
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             
             <div class="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-primary-100 hover:border-gold-400">
-                <div class="aspect-[4/3] bg-gradient-to-br from-green-700 to-green-900 flex items-center justify-center">
-                    <i class="fas fa-home text-white/20 text-8xl"></i>
+                <div class="aspect-[4/3] overflow-hidden relative">
+                     <img src="assets/img/venta_apartamentos.png" 
+                         alt="Garden Villa Moderna" 
+                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                 </div>
                 <div class="p-6 space-y-4">
                     <div class="flex items-start justify-between">
@@ -361,8 +371,10 @@ include 'includes/header.php';
             </div>
             
             <div class="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-primary-100 hover:border-gold-400">
-                <div class="aspect-[4/3] bg-gradient-to-br from-primary-600 to-primary-800 flex items-center justify-center">
-                    <i class="fas fa-tree text-gold-400/20 text-8xl"></i>
+                <div class="aspect-[4/3] overflow-hidden relative">
+                     <img src="assets/img/hero.png" 
+                         alt="Eco House Premium" 
+                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                 </div>
                 <div class="p-6 space-y-4">
                     <div class="flex items-start justify-between">
@@ -392,8 +404,10 @@ include 'includes/header.php';
             </div>
             
             <div class="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-primary-100 hover:border-gold-400">
-                <div class="aspect-[4/3] bg-gradient-to-br from-gold-700 to-gold-900 flex items-center justify-center">
-                    <i class="fas fa-swimming-pool text-white/20 text-8xl"></i>
+                <div class="aspect-[4/3] overflow-hidden relative">
+                     <img src="assets/img/alquiler_penthouse.png" 
+                         alt="Luxury Pool House" 
+                         class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                 </div>
                 <div class="p-6 space-y-4">
                     <div class="flex items-start justify-between">
