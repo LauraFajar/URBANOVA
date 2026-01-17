@@ -1,6 +1,6 @@
 ﻿<?php
 $page_title = "URBANOVA Propiedades | Inversiones Inmobiliarias de Lujo";
-$page_description = "Descubre las mejores propiedades en zonas exclusivas. URBANOVA Propiedades ofrece venta, alquiler, tasaciones y asesorÃ­a integral para tu inversiÃ³n.";
+$page_description = "Descubre las mejores propiedades en zonas exclusivas. URBANOVA Propiedades ofrece venta, alquiler, tasaciones y asesoría integral para tu inversión.";
 $current_page = "inicio";
 include 'includes/header.php';
 ?>
@@ -16,16 +16,16 @@ include 'includes/header.php';
     <div class="container mx-auto px-4 lg:px-8 z-10">
         <div class="max-w-4xl">
             <p class="text-gold-400 font-inter font-medium text-sm lg:text-base uppercase tracking-[0.3em] mb-4 animate-fade-in">
-                Zona Exclusiva â€¢ InversiÃ³n Premium
+                Zona Exclusiva • Inversión Premium
             </p>
             
             <h1 class="font-montserrat font-black text-5xl md:text-6xl lg:text-7xl text-white leading-tight mb-6">
-                Tu InversiÃ³n<br>
+                Tu Inversión<br>
                 <span class="text-gold-400">Inmobiliaria</span> de Lujo
             </h1>
             
             <p class="text-primary-100 text-lg lg:text-xl font-inter font-light leading-relaxed mb-8 max-w-2xl">
-                Apartamentos Premium â€¢ Penthouses Exclusivos â€¢ Casas de DiseÃ±o â€¢ Oficinas Corporativas
+                Apartamentos Premium • Penthouses Exclusivos • Casas de Diseño • Oficinas Corporativas
             </p>
             
             <div class="flex flex-col sm:flex-row gap-4">
@@ -58,19 +58,19 @@ include 'includes/header.php';
                 </p>
                 
                 <h2 class="font-montserrat font-black text-4xl lg:text-5xl text-primary-900 leading-tight">
-                    Transformamos SueÃ±os en<br>
+                    Transformamos Sueños en<br>
                     <span class="text-gold-500">Propiedades Extraordinarias</span>
                 </h2>
                 
                 <div class="space-y-4 text-primary-700 text-base lg:text-lg leading-relaxed">
                     <p>
-                        En <strong class="text-primary-900">URBANOVA Propiedades</strong>, entendemos que una inversiÃ³n inmobiliaria es mucho mÃ¡s que una transacciÃ³n comercial: es el comienzo de un nuevo capÃ­tulo en tu vida.
+                        En <strong class="text-primary-900">URBANOVA Propiedades</strong>, entendemos que una inversión inmobiliaria es mucho más que una transacción comercial: es el comienzo de un nuevo capítulo en tu vida.
                     </p>
                     <p>
-                        Desde 2015, hemos ayudado a mÃ¡s de 500 familias y empresas a encontrar su espacio ideal, combinando ubicaciones privilegiadas con diseÃ±os contemporÃ¡neos y servicios integrales de asesorÃ­a.
+                        Desde 2015, hemos ayudado a más de 500 familias y empresas a encontrar su espacio ideal, combinando ubicaciones privilegiadas con diseños contemporáneos y servicios integrales de asesoría.
                     </p>
                     <p>
-                        Nuestro equipo de expertos en bienes raÃ­ces trabaja incansablemente para ofrecerte propiedades exclusivas en las zonas mÃ¡s cotizadas, con transparencia total y acompaÃ±amiento personalizado en cada etapa del proceso.
+                        Nuestro equipo de expertos en bienes raíces trabaja incansablemente para ofrecerte propiedades exclusivas en las zonas más cotizadas, con transparencia total y acompañamiento personalizado en cada etapa del proceso.
                     </p>
                 </div>
                 
@@ -81,7 +81,7 @@ include 'includes/header.php';
                     </div>
                     <div class="text-center border-x border-primary-200">
                         <p class="font-montserrat font-black text-4xl text-gold-500">9</p>
-                        <p class="text-primary-600 text-sm mt-1">AÃ±os de Experiencia</p>
+                        <p class="text-primary-600 text-sm mt-1">Años de Experiencia</p>
                     </div>
                     <div class="text-center">
                         <p class="font-montserrat font-black text-4xl text-gold-500">$120M+</p>
@@ -114,7 +114,7 @@ include 'includes/header.php';
                 Servicios <span class="text-gold-400">Premium</span>
             </h2>
             <p class="text-primary-200 text-lg font-inter leading-relaxed">
-                Soluciones integrales adaptadas a tus necesidades de inversiÃ³n inmobiliaria
+                Soluciones integrales adaptadas a tus necesidades de inversión inmobiliaria
             </p>
         </div>
         
@@ -153,7 +153,7 @@ include 'includes/header.php';
                         Alquiler de Penthouses
                     </h3>
                     <p class="text-primary-300 text-sm leading-relaxed">
-                        Espacios exclusivos con terrazas panorÃ¡micas y amenities de primera clase para tu estilo de vida.
+                        Espacios exclusivos con terrazas panorámicas y amenities de primera clase para tu estilo de vida.
                     </p>
                 </div>
             </div>
@@ -172,7 +172,7 @@ include 'includes/header.php';
                         Tasaciones Profesionales
                     </h3>
                     <p class="text-primary-300 text-sm leading-relaxed">
-                        Valuaciones precisas realizadas por expertos certificados con tecnologÃ­a de Ãºltima generaciÃ³n.
+                        Valuaciones precisas realizadas por expertos certificados con tecnología de última generación.
                     </p>
                 </div>
             </div>
@@ -188,10 +188,10 @@ include 'includes/header.php';
                         Integral
                     </span>
                     <h3 class="font-montserrat font-bold text-2xl text-white group-hover:text-gold-400 transition-colors duration-300">
-                        AsesorÃ­a Legal
+                        Asesoría Legal
                     </h3>
                     <p class="text-primary-300 text-sm leading-relaxed">
-                        AcompaÃ±amiento legal completo en todas las etapas de tu transacciÃ³n inmobiliaria.
+                        Acompañamiento legal completo en todas las etapas de tu transacción inmobiliaria.
                     </p>
                 </div>
             </div>
@@ -207,10 +207,10 @@ include 'includes/header.php';
                         Rentable
                     </span>
                     <h3 class="font-montserrat font-bold text-2xl text-white group-hover:text-gold-400 transition-colors duration-300">
-                        InversiÃ³n Inmobiliaria
+                        Inversión Inmobiliaria
                     </h3>
                     <p class="text-primary-300 text-sm leading-relaxed">
-                        Oportunidades de inversiÃ³n estratÃ©gicas con alto potencial de rentabilidad y crecimiento.
+                        Oportunidades de inversión estratégicas con alto potencial de rentabilidad y crecimiento.
                     </p>
                 </div>
             </div>
@@ -224,10 +224,10 @@ include 'includes/header.php';
                         Confiable
                     </span>
                     <h3 class="font-montserrat font-bold text-2xl text-white group-hover:text-gold-400 transition-colors duration-300">
-                        AdministraciÃ³n de Propiedades
+                        Administración de Propiedades
                     </h3>
                     <p class="text-primary-300 text-sm leading-relaxed">
-                        GestiÃ³n integral de tu propiedad: mantenimiento, cobros, inquilinos y mÃ¡s.
+                        Gestión integral de tu propiedad: mantenimiento, cobros, inquilinos y más.
                     </p>
                 </div>
             </div>
@@ -263,30 +263,30 @@ include 'includes/header.php';
                 </p>
                 
                 <h2 class="font-montserrat font-black text-4xl lg:text-5xl text-primary-900 leading-tight">
-                    MÃ¡s que una Inmobiliaria,<br>
+                    Más que una Inmobiliaria,<br>
                     <span class="text-gold-500">Somos tu Aliado</span>
                 </h2>
                 
                 <div class="space-y-4 text-primary-700 text-base lg:text-lg leading-relaxed">
                     <p>
-                        Fundada en 2015 por un equipo de profesionales apasionados por el desarrollo urbano, <strong class="text-primary-900">URBANOVA Propiedades</strong> naciÃ³ con una visiÃ³n clara: revolucionar la experiencia de compra y venta de propiedades de lujo.
+                        Fundada en 2015 por un equipo de profesionales apasionados por el desarrollo urbano, <strong class="text-primary-900">URBANOVA Propiedades</strong> nació con una visión clara: revolucionar la experiencia de compra y venta de propiedades de lujo.
                     </p>
                     <p>
-                        Nuestra filosofÃ­a se basa en tres pilares fundamentales: <strong>transparencia total</strong>, <strong>asesorÃ­a personalizada</strong> y <strong>compromiso con la excelencia</strong>. Creemos que cada cliente merece un servicio que supere sus expectativas.
+                        Nuestra filosofía se basa en tres pilares fundamentales: <strong>transparencia total</strong>, <strong>asesoría personalizada</strong> y <strong>compromiso con la excelencia</strong>. Creemos que cada cliente merece un servicio que supere sus expectativas.
                     </p>
                     <p>
-                        Con un equipo multidisciplinario de arquitectos, abogados, tasadores y agentes inmobiliarios certificados, ofrecemos soluciones integrales que van mÃ¡s allÃ¡ de la simple transacciÃ³n. Construimos relaciones duraderas basadas en la confianza mutua.
+                        Con un equipo multidisciplinario de arquitectos, abogados, tasadores y agentes inmobiliarios certificados, ofrecemos soluciones integrales que van más allá de la simple transacción. Construimos relaciones duraderas basadas en la confianza mutua.
                     </p>
                 </div>
                 
                 <div class="grid sm:grid-cols-2 gap-4 pt-4">
                     <div class="flex items-start space-x-3">
                         <i class="fas fa-check-circle text-gold-500 text-xl mt-1"></i>
-                        <p class="text-primary-800 font-medium">CertificaciÃ³n Internacional</p>
+                        <p class="text-primary-800 font-medium">Certificación Internacional</p>
                     </div>
                     <div class="flex items-start space-x-3">
                         <i class="fas fa-check-circle text-gold-500 text-xl mt-1"></i>
-                        <p class="text-primary-800 font-medium">GarantÃ­a de SatisfacciÃ³n</p>
+                        <p class="text-primary-800 font-medium">Garantía de Satisfacción</p>
                     </div>
                     <div class="flex items-start space-x-3">
                         <i class="fas fa-check-circle text-gold-500 text-xl mt-1"></i>
@@ -294,7 +294,7 @@ include 'includes/header.php';
                     </div>
                     <div class="flex items-start space-x-3">
                         <i class="fas fa-check-circle text-gold-500 text-xl mt-1"></i>
-                        <p class="text-primary-800 font-medium">AsesorÃ­a 24/7</p>
+                        <p class="text-primary-800 font-medium">Asesoría 24/7</p>
                     </div>
                 </div>
             </div>
@@ -312,8 +312,8 @@ include 'includes/header.php';
     <div class="container mx-auto px-4 lg:px-8 z-10 relative">
         <div class="max-w-3xl mx-auto text-center space-y-8">
             <h2 class="font-montserrat font-black text-4xl lg:text-5xl text-white leading-tight">
-                Â¿Listo para Invertir en tu<br>
-                <span class="text-gold-400">Propiedad SoÃ±ada?</span>
+                ¿Listo para Invertir en tu<br>
+                <span class="text-gold-400">Propiedad Soñada?</span>
             </h2>
             <p class="text-primary-100 text-lg lg:text-xl font-inter leading-relaxed">
                 Agenda una consulta gratuita con nuestros expertos y descubre las mejores oportunidades del mercado
@@ -331,10 +331,10 @@ include 'includes/header.php';
         
         <div class="text-center max-w-3xl mx-auto mb-12">
             <h2 class="font-montserrat font-black text-4xl lg:text-5xl text-white leading-tight mb-4">
-                SÃ­guenos en <span class="text-gold-400">@urbanova</span>
+                Síguenos en <span class="text-gold-400">@urbanova</span>
             </h2>
             <p class="text-primary-200 text-lg font-inter">
-                Mantente al dÃ­a con nuestras Ãºltimas propiedades y novedades
+                Mantente al día con nuestras últimas propiedades y novedades
             </p>
         </div>
         
