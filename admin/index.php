@@ -41,8 +41,10 @@ $result = $conn->query($sql);
                     </span>
                     <span class="ml-4 px-3 py-1 rounded-full text-xs font-semibold bg-gray-100 text-gray-500">Admin Panel</span>
                 </div>
-                <div class="flex items-center">
-                    <span class="mr-4 text-sm text-gray-600">Hola, Admin</span>
+                <div class="flex items-center space-x-4">
+                    <a href="index.php" class="text-gray-900 font-medium hover:text-gold-400">Mensajes</a>
+                    <a href="propiedades.php" class="text-gray-500 hover:text-gold-400">Propiedades</a>
+                    <span class="mr-2 text-sm text-gray-600 border-l pl-4">Hola, Admin</span>
                     <a href="logout.php" class="text-sm font-medium text-red-600 hover:text-red-800">
                         <i class="fas fa-sign-out-alt mr-1"></i> Cerrar Sesión
                     </a>
