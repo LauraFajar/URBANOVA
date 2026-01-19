@@ -1,5 +1,7 @@
 {
     "name": "urbanova/website",
     "description": "Urbanova Real Estate Website",
-    "require": {}
+    "require": {
+        "ext-mysqli": "*"
+    }
 }
