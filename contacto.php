@@ -3,6 +3,60 @@ $page_title = "Contacto y Consultas | URBANOVA Propiedades";
 $page_description = "Agenda tu consulta gratuita con nuestros expertos inmobiliarios. Estamos aquí para ayudarte a encontrar tu inversión perfecta.";
 $current_page = "contacto";
 include 'includes/header.php';
+include 'includes/db.php';
+
+$message = "";
+$message_type = ""; 
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if ($db_connected) {
+        // 1. Crear tabla si no existe (Auto-migración para facilitar despliegue)
+        $sql_create = "CREATE TABLE IF NOT EXISTS consultas (
+            id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+            nombre VARCHAR(100) NOT NULL,
+            email VARCHAR(100) NOT NULL,
+            telefono VARCHAR(50),
+            fecha VARCHAR(20),
+            horario VARCHAR(50),
+            tipo_propiedad VARCHAR(50),
+            presupuesto VARCHAR(50),
+            motivo VARCHAR(50),
+            comentarios TEXT,
+            fecha_envio TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )";
+        
+        if ($conn->query($sql_create) === TRUE) {
+            // 2. Recoger y sanitizar datos
+            $nombre = $conn->real_escape_string($_POST['nombre']);
+            $email = $conn->real_escape_string($_POST['email']);
+            $telefono = $conn->real_escape_string($_POST['telefono']);
+            $fecha = $conn->real_escape_string($_POST['fecha']);
+            $horario = $conn->real_escape_string($_POST['horario']);
+            $tipo_propiedad = $conn->real_escape_string($_POST['tipo_propiedad']);
+            $presupuesto = $conn->real_escape_string($_POST['presupuesto']);
+            $motivo = $conn->real_escape_string($_POST['motivo']);
+            $comentarios = $conn->real_escape_string($_POST['comentarios']);
+
+            // 3. Insertar datos
+            $sql_insert = "INSERT INTO consultas (nombre, email, telefono, fecha, horario, tipo_propiedad, presupuesto, motivo, comentarios)
+            VALUES ('$nombre', '$email', '$telefono', '$fecha', '$horario', '$tipo_propiedad', '$presupuesto', '$motivo', '$comentarios')";
+
+            if ($conn->query($sql_insert) === TRUE) {
+                $message = "¡Consulta enviada con éxito! Nos pondremos en contacto contigo pronto.";
+                $message_type = "success";
+            } else {
+                $message = "Error al guardar tu consulta: " . $conn->error;
+                $message_type = "error";
+            }
+        } else {
+            $message = "Error al configurar la base de datos: " . $conn->error;
+            $message_type = "error";
+        }
+    } else {
+        $message = "Error de conexión con la base de datos. Por favor intenta más tarde.";
+        $message_type = "error";
+    }
+}
 ?>
 
 <section class="relative h-[50vh] flex items-center justify-center bg-primary-900">
@@ -165,6 +219,16 @@ include 'includes/header.php';
                     </div>
                     
                     <div class="p-6 lg:p-8">
+                        
+                        <?php if (!empty($message)): ?>
+                            <div class="mb-6 p-4 rounded-lg <?php echo $message_type == 'success' ? 'bg-green-100 text-green-700 border border-green-200' : 'bg-red-100 text-red-700 border border-red-200'; ?>">
+                                <div class="flex items-center">
+                                    <i class="fas <?php echo $message_type == 'success' ? 'fa-check-circle' : 'fa-exclamation-circle'; ?> mr-3 text-xl"></i>
+                                    <p class="font-medium"><?php echo $message; ?></p>
+                                </div>
+                            </div>
+                        <?php endif; ?>
+
                         
                         <form action="#" method="POST" class="space-y-6">
                             
