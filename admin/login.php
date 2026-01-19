@@ -7,7 +7,7 @@ $error = '';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Credenciales hardcodeadas por simplicidad inicial
     $admin_user = 'admin';
-    $admin_pass = 'admin123'; // Cambiar esto en producción
+    $admin_pass = 'admin12345'; // Cambiar esto en producción
 
     if ($_POST['username'] === $admin_user && $_POST['password'] === $admin_pass) {
         $_SESSION['admin_logged_in'] = true;
