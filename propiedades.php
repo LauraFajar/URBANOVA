@@ -512,6 +512,108 @@ include 'includes/header.php';
     </div>
 </section>
 
+<!-- Mortgage Calculator Section -->
+<section id="hipoteca" class="py-20 bg-white">
+    <div class="container mx-auto px-4 lg:px-8">
+        <div class="max-w-4xl mx-auto bg-primary-50 rounded-2xl shadow-xl overflow-hidden border border-gold-400/20">
+            <div class="p-8 lg:p-12">
+                <div class="text-center mb-10">
+                    <h2 class="font-montserrat font-black text-3xl text-primary-900 mb-2">
+                        Calculadora de <span class="text-gold-400">Hipoteca</span>
+                    </h2>
+                    <p class="text-primary-600">Estima tu cuota mensual para la propiedad de tus sueños</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Inputs -->
+                    <div class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-bold text-primary-900 mb-2">Precio de la Propiedad ($)</label>
+                            <input type="number" id="calc-price" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-gold-400 focus:ring-1 focus:ring-gold-400 outline-none transition-all" placeholder="Ej: 450000" value="450000">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-bold text-primary-900 mb-2">Pago Inicial / Pie (%)</label>
+                            <div class="relative">
+                                <input type="number" id="calc-down" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-gold-400 focus:ring-1 focus:ring-gold-400 outline-none transition-all" placeholder="Ej: 20" value="20">
+                                <span class="absolute right-4 top-3 text-gray-500">%</span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-sm font-bold text-primary-900 mb-2">Interés Anual (%)</label>
+                                <input type="number" id="calc-rate" step="0.1" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-gold-400 focus:ring-1 focus:ring-gold-400 outline-none transition-all" placeholder="Ej: 4.5" value="4.5">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-primary-900 mb-2">Plazo (Años)</label>
+                                <select id="calc-term" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-gold-400 focus:ring-1 focus:ring-gold-400 outline-none transition-all">
+                                    <option value="15">15 Años</option>
+                                    <option value="20" selected>20 Años</option>
+                                    <option value="25">25 Años</option>
+                                    <option value="30">30 Años</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button onclick="calculateMortgage()" class="w-full btn-gradient text-white font-montserrat font-bold uppercase py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                            Calcular Cuota
+                        </button>
+                    </div>
+
+                    <!-- Result -->
+                    <div class="bg-primary-900 rounded-xl p-8 flex flex-col justify-center items-center text-center relative overflow-hidden">
+                        <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#D4AF37 1px, transparent 1px); background-size: 20px 20px;"></div>
+                        
+                        <div class="relative z-10">
+                            <p class="text-primary-300 text-sm uppercase tracking-widest mb-2">Cuota Mensual Estimada</p>
+                            <h3 class="text-5xl lg:text-6xl font-montserrat font-black text-white mb-4">
+                                $<span id="calc-result">0</span>
+                            </h3>
+                            <div class="w-20 h-1 bg-gold-400 mx-auto mb-6"></div>
+                            <p class="text-xs text-primary-400 max-w-xs mx-auto">
+                                *Esto es solo un estimado referencial. Las tasas y condiciones reales pueden variar según la institución financiera.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function calculateMortgage() {
+        const price = parseFloat(document.getElementById('calc-price').value) || 0;
+        const downPercent = parseFloat(document.getElementById('calc-down').value) || 0;
+        const rate = parseFloat(document.getElementById('calc-rate').value) || 0;
+        const years = parseInt(document.getElementById('calc-term').value) || 0;
+
+        const downPayment = price * (downPercent / 100);
+        const loanAmount = price - downPayment;
+        
+        const monthlyRate = (rate / 100) / 12;
+        const numberOfPayments = years * 12;
+
+        let monthlyPayment = 0;
+
+        if (rate === 0) {
+            monthlyPayment = loanAmount / numberOfPayments;
+        } else {
+            monthlyPayment = (loanAmount * monthlyRate * Math.pow(1 + monthlyRate, numberOfPayments)) / (Math.pow(1 + monthlyRate, numberOfPayments) - 1);
+        }
+
+        const formatter = new Intl.NumberFormat('en-US', {
+            minimumFractionDigits: 0,
+            maximumFractionDigits: 0,
+        });
+
+        document.getElementById('calc-result').innerText = formatter.format(monthlyPayment);
+    }
+    
+    document.addEventListener('DOMContentLoaded', calculateMortgage);
+</script>
+
 <script>
     // Smooth scroll for category navigation
     document.querySelectorAll('.category-tab').forEach(tab => {

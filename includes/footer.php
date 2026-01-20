@@ -165,8 +165,12 @@
         <i class="fas fa-arrow-up"></i>
     </button>
     
+    <!-- WhatsApp Widget -->
+    <a href="https://wa.me/5491123456789" target="_blank" class="fixed bottom-24 right-8 w-14 h-14 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-2xl flex items-center justify-center hover:scale-110 transition-transform duration-300 z-50 animate-bounce">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+    
     <script>
-        // Scroll to Top Button
         const scrollToTopBtn = document.getElementById('scroll-to-top');
         
         window.addEventListener('scroll', () => {
